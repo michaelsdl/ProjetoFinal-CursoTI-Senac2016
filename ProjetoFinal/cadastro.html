@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="author" content="Michael Silva" />
+		<title>Pet Mania | Sobre</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link href="css/estilo.css" rel="stylesheet" />
+	</head>
+	
+	<body>
+		<!-- Início da barra de navegação -->
+		<div class="navbar-wrapper">
+			<div class="container">
+				<nav class="navbar navbar-inverse navbar-static-top" id = "menunav">
+					<div class="container">	
+					
+						<!-- Início do espaço para logo -->
+						<div class="navbar-header" style="float:left">
+							<a class="navbar-brand" id = "petmania" href="#">Pet mania</a>
+						</div>
+						<!-- Fim do espaço para logo -->
+						
+						<!-- Início do menu para mobile -->
+						<div class="navbar-header">
+						  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						  </button>
+						</div>
+						<!-- Fim do menu para mobile -->
+						
+						<!-- Início do menu dropdown -->
+						<div id="navbar" class="navbar-collapse collapse">
+							<ul class="nav navbar-nav">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="sobre.html">Sobre</a></li>
+								<li><a href="contato.html">Contato</a></li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Produtos<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li class="dropdown-header">Alimentação</li>
+										<li><a href="aliment_cao.html">Cães</a></li>
+										<li><a href="aliment_gato.html">Gatos</a></li>
+										<li role="separator" class="divider"></li>
+										<li class="dropdown-header">Medicamentos</li>
+										<li><a href="medic_cao.html">Cães</a></li>
+										<li><a href="medic_gato.html">Gatos</a></li>
+									</ul>
+								</li>
+							</ul>
+							
+							<!-- Botão do modal de Login -->
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Login</button>
+
+							
+							<!-- Início da barra de busca -->
+							<form name = "formBusca" id = "formBusca" method = "get" action = "index.html">
+								<input type = "search" name = "txtBusca" id = "txtBusca" />
+								<input type = "submit" name = "btnBusca" id = "btnBusca" value = "Buscar" />
+							</form>
+							<!-- Fim da Barra de busca -->
+						</div>
+						<!-- Fim do menu dropdown -->	
+					</div>
+				</nav>			
+			</div>
+		</div> 
+		<!-- Fim da barra de navegação -->
+		
+		<!-- Início do modal de Login -->
+		<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content" id = "modalLogin">
+					
+					<form name = "formLogar" id = "formLogar" method = "post">
+						<h1>Login</h1>
+						
+						<p>
+							<label for = "txtUsuario">Usuário:</label>
+							<input type = "text" name = "txtUsuario" id = "txtUsuario" />
+						</p>
+						
+						<br />
+						
+						<p>
+							<label for = "txtSenha">Senha:</label>
+							<input type = "password" name = "txtSenha" id = "txtSenha" />
+						</p>
+						
+						<br />
+						
+						<input type = "reset" name = "btnLimpar" id = "btnLimpar" value = "Limpar" />
+						<input type = "submit" name = "btnLogar" id = "btnLogar" value = "Logar" />
+						<br />
+						
+						<a href = "cadastro.html" name = "cadastro" id = "cadastro">Cadastrar-se</a>
+						<a href = "#" name = "recSenha" id = "recSenha">Esqueci minha senha</a>
+						
+					</form>
+				</div>
+			</div>
+		</div>	
+		<!-- Fim do modal de Login -->	
+		
+		<!-- Início do formulário -->
+		<h2 class = "titulo">Cadastro</h2>
+		<form class="form-horizontal" id = "contatoform" method = "post" name = "contatoform" action = "contato.php">
+			<div class="form-group">
+				<label class="col-sm-2 control-label">Nome Completo</label>
+				<div class="col-sm-10">
+				  <input type="text" class="form-control" id="inputEmail3" placeholder="Nome" required />
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="col-sm-2 control-label">Endereço</label>
+				<div class="col-sm-10">
+				  <input type="text" class="form-control" id="inputEmail3" placeholder="Endereço" required />
+				</div>
+			</div>
+						
+			<div class="form-group">
+				<label class="col-sm-2 control-label">E-mail</label>
+				<div class="col-sm-10">
+					<input type="email" class="form-control" id="inputPassword3" placeholder="Email" />
+				</div>
+			</div>
+			  
+			<div class="form-group">
+				<label class="col-sm-2 control-label">Nascimento</label>
+				<div class="col-sm-10">
+					<input type="date" class="form-control" id="inputEmail3" placeholder="Nascimento" required />
+				</div>
+			</div>
+			  
+			<div class="form-group">
+				<label class="col-sm-2 control-label">CPF</label>
+				<div class="col-sm-10">
+				  <input type="text" class="form-control" id="inputEmail3" placeholder="CPF" required />
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="col-sm-2 control-label">RG</label>
+				<div class="col-sm-10">
+				  <input type="text" class="form-control" id="inputEmail3" placeholder="RG" required />
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="col-sm-2 control-label">Sexo</label>
+				<div class="col-sm-10">
+				  <input type="radio" class="form-control" id="sexo" name="sexo"/>
+				  <input type="radio" class="form-control" id="sexo" name="sexo"/>
+				</div>
+			</div>
+				
+			<div class="form-group">
+				<div class="col-sm-offset-2 col-sm-10">
+					<button type="submit" class="btn btn-default" id = "botao">Enviar</button>
+					<button type="reset" class="btn btn-default" id = "botao">Limpar</button>
+				</div>
+			</div>
+		</form>
+		<!-- Fim do formulário -->
+		
+		<hr class="featurette-divider" />
+		
+		<footer>
+			<p class="pull-right"><a href="#">Voltar para o topo</a></p>
+			<p>&copy; 2016 PetMania, Inc. &middot; <a href="#">Privacidade</a> &middot; <a href="#">Termos</a></p>
+		</footer>
+
+		<!-- Bootstrap  JavaScript
+		================================================== -->
+		<script src="js/jquery.min.js"></script> 
+		<script src="js/bootstrap.min.js"></script>
+
+	</body>
+</html>

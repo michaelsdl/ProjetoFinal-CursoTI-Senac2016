@@ -1,0 +1,153 @@
+body{
+	background: linear-gradient(90deg,#090 5%,#0d0 60%);
+}
+/* Imagens do slide-show */
+.fotoslide{
+	margin:auto;
+}
+/**/
+
+/*Menu do topo da página*/
+#menunav{
+	border-radius: 20px 0px 20px 0px;
+	background:#ddd;
+}
+#formBusca{
+	float:right;
+	padding: 10px 30px 0px 0px;
+	margin-bottom: 10px;
+}
+#btnBusca{
+	background: #eee;
+}
+#btnBusca:hover{
+	background: #fff;
+}
+/**/
+
+/* Modal de Login */
+#modalLogin{
+	width: 300px;
+	height: 300px;
+	margin: 30px auto;
+	background: #ddd;
+	border-radius: 10px;
+	padding: 20px;
+}
+#modalLogin h1{
+	text-align:center;
+	color:#0c0;
+	font-weight: bold;
+	text-shadow: -1px -1px #aaa;
+}
+#modalLogin p{
+	margin: 10px;
+	float:right;	
+}
+#modalLogin #btnLogar,#btnLimpar{
+	margin: 20px 0px 0px 50px;
+	background: SteelBlue;
+	color: white;
+}
+#modalLogin #btnLogar:hover{
+	background: navy;
+	cursor: pointer;
+}
+#modalLogin #btnLimpar:hover{
+	background: navy;
+	cursor: pointer;
+}
+#recSenha{
+	float:right;
+	margin-top: 15px;
+	
+}
+#cadastro{
+	float:left;
+	margin-top:15px;
+}
+/**/
+
+/* Logo */
+#petmania{
+	color:#0c0;
+	font-size:2em;
+	font-weight:bold;
+	text-shadow: -1px -1px #aaa;
+}
+/**/
+
+/*Conteúdo textual da página*/
+#conteudo{
+	text-align:center;
+	margin: 60px auto 30px auto;
+}
+/**/
+
+/*Sombras de cão e gato abaixo do slide*/
+#sombra{
+	border-radius:0;
+	
+}
+/**/
+
+/*Imagens dicas*/
+#dicas{
+	width:300px;
+	border-radius:20px 0px 20px 0px;
+}
+
+/**/
+
+/*Imagem contato*/
+#imgsobre{
+	border-radius: 20px 0px 20px 0px;
+	margin:auto;
+}
+
+/**/
+
+/*texto página "Sobre"*/
+.texto{
+	font-weight:bold;
+	border-radius: 20px 0px 20px 0px;
+	color:#fff;
+	
+}
+.texto p{
+	margin-top:40px;
+}
+/**/
+
+/* Formulário de contato */
+
+#contatoform{
+	width:50%;
+	margin:auto;
+}
+#botao{
+	margin:20px 10px 20px 0px; 
+}
+#mensagem{
+	width:100%;
+	height:15%;
+}
+/**/
+
+/* Imagem da página de contato*/
+#imgcontato{
+	width:25%;
+	margin:10px auto 40px auto;
+	border-radius: 20px 0px 20px 0px;
+	min-width:200px;
+	
+}
+/**/
+/*Página de cadastro*/
+
+.titulo{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+/**/
