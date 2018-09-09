@@ -1,0 +1,331 @@
+body {
+	background: linear-gradient(90deg, #090 5%, #0d0 60%);
+}
+
+/* Imagens do slide-show */
+.fotoslide {
+	margin: auto;
+}
+/**/
+
+/*Menu do topo da página*/
+#menunav {
+	border-radius: 20px 0px 20px 0px;
+	background: #ddd;
+}
+
+#formBusca {
+	float: right;
+	padding: 10px 30px 0px 0px;
+	margin-bottom: 10px;
+}
+
+#txtBusca {
+	width: 99px;
+}
+
+#btnBusca {
+	background: #eee;
+	font-size: 0.8em;
+}
+
+#btnBusca:hover {
+	background: #fff;
+}
+
+.btn-primary {
+	margin-top: 5px;
+}
+
+#divLogado{
+	background-image: linear-gradient(90deg, transparent, #fff, transparent);
+	color: #0000aa;
+	text-align: center;
+	overflow: auto;
+}
+
+#logout{
+	margin-top: 10px;
+	background: #00a;
+	border-radius: 5px;
+	color: #fff;
+}
+
+#categorias{
+	max-height: 60px;
+	overflow:auto;
+	border-top: 1px solid #888;
+}
+
+#categorias li a{
+	color: #005;
+}
+
+#categorias li a:hover{
+	color: #fff;
+	cursor: pointer;		
+}
+
+.cart {
+	margin: 20px 0px 20px 40px;
+	padding: 0;
+	border-radius: 12px;
+}
+
+.retirarCar {
+	margin: 20px 40px 20px 0px;
+	padding: 0;
+	border-radius: 12px;
+	background: #f00;
+}
+
+#divAdicionado{
+	font-weight: bold;
+	color: #008040;
+	position: fixed;
+	z-index: 2;
+	bottom: 0px;
+	right: 0px;
+	background: #ffff00;
+	border-radius: 12px;
+}
+
+#divListaCarrinho{
+	position: fixed;
+	z-index: 2;
+	bottom: 50px;
+	right: 10px;
+	color: #008040;
+	background: #ffff00;
+	border-radius: 0px 3px 0px 3px;
+	padding: 15px;
+}
+
+#divAdicionado:hover{
+	cursor: pointer;
+}
+
+/**/
+
+/*Menu dropdown*/
+.dropdown .dropdown-menu {
+	height: 100px;
+	overflow: auto;
+}
+/**/
+/* Modal de Login */
+#modalLogin {
+	width: 300px;
+	height: 300px;
+	margin: 30px auto;
+	background: #ddd;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+#modalLogin h1 {
+	text-align: center;
+	color: #0c0;
+	font-weight: bold;
+	text-shadow: -1px -1px #aaa;
+}
+
+#modalLogin p {
+	margin: 10px;
+	float: right;
+}
+
+#modalLogin #btnLogar, #btnLimpar {
+	margin: 20px 0px 0px 50px;
+	background: SteelBlue;
+	color: white;
+}
+
+#modalLogin #btnLogar:hover {
+	background: navy;
+	cursor: pointer;
+}
+
+#modalLogin #btnLimpar:hover {
+	background: navy;
+	cursor: pointer;
+}
+
+#recSenha {
+	float: right;
+	margin-top: 15px;
+}
+/**/
+
+/* Modal de Alteração de dados */
+
+#resultadoConsulta{
+	text-align: center;
+	background: #e6e6e6;
+	border: 1px solid #fff;
+	padding: 5px;
+	font-size: 0.9em;
+}
+
+#resultadoConsulta div{
+	text-align: left;
+	width: 200px;  
+	margin: auto;
+	overflow:auto;
+}
+
+#resultadoConsulta h4{
+	color: #080;
+	margin-bottom: -5px;
+}
+
+/**/
+
+/*Modal de cadastro*/
+#cadastroModal{
+	width: 300px;
+	margin: 30px auto;
+	background: #ddd;
+	border-radius: 10px;
+	padding: 20px;
+	overflow: auto;
+}
+
+#btnSexo{
+	margin-left: 5px;
+}
+
+#cadastroModal h1 {
+	text-align: center;
+	color: #0c0;
+	font-weight: bold;
+	text-shadow: -1px -1px #aaa;
+}
+
+#cadastroModal p {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	float: right;
+}
+
+#cadastroModal #btnCadastrar {
+	background: SteelBlue;
+	color: white;
+	margin-left: 65px;
+	
+}
+
+#cadastroModal #btnLimpar {
+	background: SteelBlue;
+	color: white;
+}
+
+#cadastroModal #btnLimpar:hover {
+	background: navy;
+	cursor: pointer;
+}
+
+#cadastroModal #btnCadastrar:hover {
+	background: navy;
+	cursor: pointer;
+}
+
+
+/**/
+
+/* Página de recuperação de senha */
+
+#formRec{
+	margin: auto;
+}
+
+#formRec .form-group{
+	width: 280px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#formRec h3{
+	margin-bottom: 20px;
+	color: #080;
+	background-image: linear-gradient(90deg,transparent,#ccc,transparent);
+	padding: 10px;
+}
+/**/
+
+/* Logo */
+#petmania {
+	color: #0c0;
+	font-size: 2em;
+	font-weight: bold;
+	text-shadow: -1px -1px #aaa;
+}
+/**/
+
+/*Conteúdo textual da página*/
+#conteudo {
+	text-align: center;
+	margin: 60px auto 30px auto;
+}
+/**/
+
+/*Sombras de cão e gato abaixo do slide*/
+#sombra {
+	border-radius: 0;
+}
+/**/
+
+/*Imagens dicas*/
+#dicas {
+	width: 300px;
+	border-radius: 20px 0px 20px 0px;
+}
+
+/**/
+
+/*Imagem contato*/
+#imgsobre {
+	border-radius: 20px 0px 20px 0px;
+	margin: auto;
+}
+
+/**/
+
+/*texto página "Sobre"*/
+.texto {
+	font-weight: bold;
+	border-radius: 20px 0px 20px 0px;
+	color: #fff;
+}
+
+.texto p {
+	margin-top: 40px;
+}
+/**/
+
+/* Formulário de contato */
+#contatoform {
+	width: 50%;
+	margin: auto;
+}
+
+#botao {
+	margin: 20px 10px 20px 0px;
+}
+
+#contatoform h3{
+	margin-bottom: 20px;
+	color: #080;
+	background-image: linear-gradient(90deg,transparent,#ccc,transparent);
+	padding: 10px;
+}
+
+/**/
+
+/* Imagem da página de contato*/
+#imgcontato {
+	width: 25%;
+	margin: 10px auto 40px auto;
+	border-radius: 20px 0px 20px 0px;
+	min-width: 200px;
+}
+/**/
